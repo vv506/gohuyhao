@@ -1,0 +1,6 @@
+{
+  "name": "Nội Thất Gỗ Huy Hào",
+  "description": "Website thương mại điện tử giới thiệu và bán lẻ sản phẩm nội thất gỗ cao cấp của Công ty TNHH TMDV XNK Gỗ Huy Hào.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
