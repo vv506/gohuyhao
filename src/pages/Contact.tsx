@@ -103,6 +103,64 @@ export function Contact() {
             </form>
           </div>
         </div>
+
+        {/* Recruitment Section */}
+        <div className="mt-24">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif text-brand-dark mb-4">Tuyển dụng</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Huy Hào luôn chào đón những ứng viên tài năng, đam mê với ngành nội thất gỗ tham gia vào đội ngũ của chúng tôi. 
+              Hãy cùng nhau kiến tạo nên những không gian sống đẳng cấp.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Job 1 */}
+            <div className="bg-white border border-gray-100 p-8 shadow-sm rounded-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-medium text-brand-dark mb-2">Thợ Mộc Lành Nghề</h3>
+              <div className="flex items-center text-sm text-gray-500 mb-4 gap-4">
+                <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> Xưởng sản xuất</span>
+                <span className="flex items-center gap-1">Toàn thời gian</span>
+              </div>
+              <p className="text-gray-600 mb-6 text-sm">
+                Yêu cầu kinh nghiệm từ 3 năm trở lên trong việc chế tác nội thất gỗ tự nhiên. Đọc hiểu bản vẽ kỹ thuật tốt.
+              </p>
+              <a href="mailto:giahuy04021997@gmail.com?subject=Ứng tuyển vị trí Thợ Mộc Lành Nghề" className="inline-block text-brand-primary font-medium hover:text-brand-dark transition-colors text-sm underline underline-offset-4">
+                Ứng tuyển ngay
+              </a>
+            </div>
+
+            {/* Job 2 */}
+            <div className="bg-white border border-gray-100 p-8 shadow-sm rounded-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-medium text-brand-dark mb-2">Nhân Viên Kinh Doanh</h3>
+              <div className="flex items-center text-sm text-gray-500 mb-4 gap-4">
+                <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> Trụ sở chính</span>
+                <span className="flex items-center gap-1">Toàn thời gian</span>
+              </div>
+              <p className="text-gray-600 mb-6 text-sm">
+                Tư vấn, chăm sóc khách hàng. Yêu cầu giao tiếp tốt, có kỹ năng đàm phán và thuyết phục. Ưu tiên có kinh nghiệm ngành nội thất.
+              </p>
+              <a href="mailto:giahuy04021997@gmail.com?subject=Ứng tuyển vị trí Nhân Viên Kinh Doanh" className="inline-block text-brand-primary font-medium hover:text-brand-dark transition-colors text-sm underline underline-offset-4">
+                Ứng tuyển ngay
+              </a>
+            </div>
+
+            {/* Job 3 */}
+            <div className="bg-white border border-gray-100 p-8 shadow-sm rounded-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-medium text-brand-dark mb-2">Kiến Trúc Sư Nội Thất</h3>
+              <div className="flex items-center text-sm text-gray-500 mb-4 gap-4">
+                <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> Trụ sở chính</span>
+                <span className="flex items-center gap-1">Toàn thời gian</span>
+              </div>
+              <p className="text-gray-600 mb-6 text-sm">
+                Khảo sát, thiết kế 3D, triển khai bản vẽ kỹ thuật. Thành thạo AutoCAD, SketchUp, 3ds Max. Khả năng sáng tạo cao.
+              </p>
+              <a href="mailto:giahuy04021997@gmail.com?subject=Ứng tuyển vị trí Kiến Trúc Sư Nội Thất" className="inline-block text-brand-primary font-medium hover:text-brand-dark transition-colors text-sm underline underline-offset-4">
+                Ứng tuyển ngay
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
